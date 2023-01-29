@@ -44,8 +44,13 @@
                                     <constraint firstItem="cUo-NM-2C2" firstAttribute="top" secondItem="hBN-tj-FCV" secondAttribute="top" id="nhE-qJ-6uO"/>
                                 </constraints>
                             </view>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="rkv-YS-0yB">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="rkv-YS-0yB">
                                 <rect key="frame" x="0.0" y="248.66666666666669" width="393" height="569.33333333333326"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="mhQ-Gr-BzU">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="569.33333333333337"/>
+                                    </stackView>
+                                </subviews>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </stackView>
                         </subviews>
