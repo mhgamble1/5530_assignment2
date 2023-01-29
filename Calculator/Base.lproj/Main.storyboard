@@ -16,19 +16,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hBN-tj-FCV">
-                                <rect key="frame" x="76" y="192" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hBN-tj-FCV">
+                                <rect key="frame" x="0.0" y="58.999999999999986" width="393" height="189.66666666666663"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="rkv-YS-0yB">
-                                <rect key="frame" x="141" y="382" width="110" height="200"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="rkv-YS-0yB">
+                                <rect key="frame" x="0.0" y="248.66666666666669" width="393" height="569.33333333333326"/>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hBN-tj-FCV" secondAttribute="trailing" id="RFW-mT-Wf7"/>
+                            <constraint firstItem="rkv-YS-0yB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="SjV-VA-HGn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="rkv-YS-0yB" secondAttribute="bottom" id="Tm7-zn-sh2"/>
+                            <constraint firstItem="hBN-tj-FCV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ear-Gx-b1O"/>
+                            <constraint firstItem="hBN-tj-FCV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="foB-y4-bfh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rkv-YS-0yB" secondAttribute="trailing" id="gRa-ZO-SaD"/>
+                            <constraint firstItem="rkv-YS-0yB" firstAttribute="height" secondItem="hBN-tj-FCV" secondAttribute="height" multiplier="3" id="nfR-8d-1iO"/>
+                            <constraint firstItem="rkv-YS-0yB" firstAttribute="top" secondItem="hBN-tj-FCV" secondAttribute="bottom" id="v7T-Oa-kTx"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
